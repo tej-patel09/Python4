@@ -1,0 +1,24 @@
+ONE CLICK METHOD TO RUN JUPYTER 
+NOT COMPULSARY
+NOT BY SIR
+open any editor and type following
+	1) For anconda users
+
+	type following : 
+		@echo off
+		call C:\Programs\Scripts\activate.bat
+		cd /d Path to your file e.g. C:\Users\TEJ PATEL\Downloads\Python-20231216T184431Z-001\Python
+		jupyter notebook
+		cmd
+
+	2) For direct jupyter notbook users
+
+	type following : 
+		@echo off
+		cd /d Path to your file e.g. C:\Users\TEJ PATEL\Downloads\Python-20231216T184431Z-001\Python
+		jupyter notebook
+		cmd
+		
+no "" '' anywhere 
+save as any name e.g. "xyz.bat" .bat is compulsary
+double click the file and directly chrome will open in provided path
